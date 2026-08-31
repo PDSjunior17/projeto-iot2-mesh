@@ -1,0 +1,1 @@
+Servidor de nuvem da empresa AWS onde estará rodando um nó IPFS e estará fazendo pinagens de arquivos nesse nó, ele é responsavel além de rodar um nó, mas também de receber arquivos, coloca-los na rede IPFS, pinnando eles e retornar para dispositivo do usuário o hash IPFS do arquivo;

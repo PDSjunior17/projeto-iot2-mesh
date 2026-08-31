@@ -1,0 +1,1 @@
+- Aplicativo desktop, mobile ou código para microcontrolador feito pelo usário para sua aplicação especifica. Ele utiliza das [[Bilbiotecas]] para as funções que interagem com a rede;

@@ -1,0 +1,1 @@
+- O Objetivo deste trabalho é criar uma rede sem fio descentralizada, escalável, segura e anônima, de envio de mensagens assíncronas utilizando a tecnologia  LoRa;

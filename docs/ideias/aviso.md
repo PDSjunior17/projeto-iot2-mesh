@@ -1,0 +1,2 @@
+- Existem quatro tipos de aviso, uma para informar que uma mensagem irá ser enviada, outro em que no aviso tem um hash IPFS que referencia a mensagem do usuário que é um arquivo de mídia, outra que é um aviso que um bloco sofreu interferêcia e pde que reenvie um bloco, e outra que avisa que um aviso sofreu interferência e pede que reenvie o aviso;
+1. 

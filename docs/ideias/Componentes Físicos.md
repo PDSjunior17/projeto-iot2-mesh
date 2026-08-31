@@ -1,0 +1,4 @@
+- [[LoRa]]
+- [[Esp32 LoRa V3]] 
+- [[módulo e cartão sd]]
+- [[dispositivo usuário]]

@@ -1,0 +1,3 @@
+- É a mensagem que será enviada do dispositivo do usuário para um nó da rede e então transmitida por ele pela rede. A mensagem é comprimida e criptografada para diminuir o seu tamanho e manter a privacidade dos usuários. Ela é dividida em blocos para permitir o envio de grandes mensagens de texto dentro da rede, e é utilizado um mecanismo de CR6-16 nativo da camada física do LoRa garantir que a mensagem foi recebida sem erros;
+- Estrutura:
+	- 

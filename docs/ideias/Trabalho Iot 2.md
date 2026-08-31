@@ -1,0 +1,13 @@
+- [[Objetivo]]
+- [[Componentes Físicos]]
+- [[Componentes Lógicos]]
+- [[Caminho de dados]]
+- [[Prova de Conceito]]
+- [[Principais Aplicações]]
+- [[Cronograma]]
+- [[Referências Adicionais]]
+
+- Adicioanr configuração no nó para que apenas um se conecte a nós distantes permitindo que as pessoas possam criar redes privadas para aplicações particulares?
+- adicionar imagens para cada componente físico e lógico e para cada caminho de dado
+- adicionar referências para cada componente lógico e físico
+- adicionar LoRaWan para mandar mensagens via wifi através de gatweys lora adicionados a rede? Imagine a situação, você está na roça mas não tem cobertura wifi para toda área, apenas para uma pequena parte e precisa enviar dados de sensores para um servidor na nuvem, o que se faz? Coloca nós da minha rede espalhados na roça e  um gateway LoRa conectado a internet, os nós enviam dados que receberem para o gateway e esse envia para o servidor  através da internet, e se ele receber algum dado para um dispositivo que utiliza a rede, ele direciona o dado para a rede. Adicionando nós com acesso a internet  na rede e usando eles como gateways/servidores descentralizados eu posso conectar regiões distantes sem a necessidade de colocar uma quantidade enorme de nós sem intenet, posso até criar uma função na biblioteca que vai usar o nó com acesso a internet como ponto para enviar e receber dados de servidores. A ideia é fazer que nós de internet possam conectar entre si através da internet e que eles tabém sejam capazes de enviar/receber dados para servidores;

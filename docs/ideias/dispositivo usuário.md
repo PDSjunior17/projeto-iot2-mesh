@@ -1,0 +1,1 @@
+- Celular, computador, notebook, microcontrolador, SBCs ou qualquer dispositivo que o usuário utilize para conectar a um nó da rede para poder receber e enviar mensagens dentro da rede;

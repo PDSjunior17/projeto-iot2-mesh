@@ -1,0 +1,1 @@
+- Tecnologia de compartilhamento público e descentralizado de arquivo pela internet;

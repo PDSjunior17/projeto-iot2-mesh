@@ -1,0 +1,1 @@
+- Módulo que permite o microcontrolador armazenar dados em um cartão sd externo. Excencial para que os nós da rede possam persistir dados;

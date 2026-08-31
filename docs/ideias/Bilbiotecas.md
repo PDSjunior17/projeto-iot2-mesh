@@ -1,0 +1,4 @@
+- Bibliotecas escritas em linguagem C e em linguagem Dart/Flutter para que desenvolvedores possam usá-las para criar aplicações que utilizem da rede;
+- A biblioteca em C roda tanto em microcontroladores quanto em desktop/mobile através da integração com o flutter. Essa biblioteca tem como funcionalidade realizar as operaçoes pesads como, criptografia, compressão, divisão do arquivo da mensagem  em blocos e quando roda em microcontroladores ela também é responsavél por conectar o dispositovo ao nó da rede via bluetthop e por enviar/baixar arquivos da rede IPFS;
+- A biblioteca em Dart é responsável por realizar as conexões do dispositivo desktop/mobile com o nó da rede via bluetthop e por enviar/baixar arquivos da rede IPFS;
+- Adicionar função que não utliza criptografia para criptografar mensagens para testes e envio de dados que devem ser rápidos e não exigem segurança;

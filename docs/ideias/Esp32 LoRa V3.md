@@ -1,0 +1,1 @@
+- É um microcontrolador barato e prático que já vem com bluetooth e wifi integrados;
