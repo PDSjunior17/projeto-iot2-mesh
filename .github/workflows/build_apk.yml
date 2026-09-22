@@ -15,7 +15,7 @@ jobs:
     # IMPORTANTE: Altere "interfaces/seu_app" para o nome real da pasta onde está o projeto Flutter
     defaults:
       run:
-        working-directory: ./interfaces/seu_app_flutter 
+        working-directory: ./interfaces/app_mobile 
 
     steps:
       - name: Checkout repository
@@ -43,4 +43,4 @@ jobs:
         with:
           name: app-release
           # O caminho aqui também precisa refletir a pasta interfaces
-          path: interfaces/seu_app_flutter/build/app/outputs/flutter-apk/app-release.apk
+          path: interfaces/app_mobile/build/app/outputs/flutter-apk/app-release.apk
