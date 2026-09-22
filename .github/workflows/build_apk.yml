@@ -1,0 +1,46 @@
+name: Build Flutter APK
+
+on:
+  push:
+    branches:
+      - main
+    # Opcional: Só roda a action se houver mudança na pasta do app
+    paths:
+      - 'interfaces/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    # IMPORTANTE: Altere "interfaces/seu_app" para o nome real da pasta onde está o projeto Flutter
+    defaults:
+      run:
+        working-directory: ./interfaces/seu_app_flutter 
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+
+      - name: Install Dependencies
+        run: flutter pub get
+
+      - name: Build APK
+        run: flutter build apk --release
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release
+          # O caminho aqui também precisa refletir a pasta interfaces
+          path: interfaces/seu_app_flutter/build/app/outputs/flutter-apk/app-release.apk
