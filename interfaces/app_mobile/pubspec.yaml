@@ -1,7 +1,7 @@
 name: app_mobile
 description: Aplicativo de teste para comunicacao BLE com ESP32 LoRa.
 publish_to: "none"
- 
+
 version: 1.0.0+1
 
 environment:
